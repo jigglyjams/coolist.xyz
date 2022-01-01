@@ -28,7 +28,7 @@ import { Formik, Form, Field } from 'formik';
 //import { providerOptions } from './constants.js';
 import { getAccount, getSignature } from '../lib/signature';
 
-const baseUrl = 'https://coolist.xyz'
+const baseUrl = 'https://coolist-xyz.vercel.app'
 //const baseUrl = 'localhost:3000';
 
 const Index = () => {
