@@ -28,8 +28,8 @@ import { Formik, Form, Field } from 'formik';
 //import { providerOptions } from './constants.js';
 import { getAccount, getSignature } from '../lib/signature';
 
-//const baseUrl = 'https://coolist.xyz'
-const baseUrl = 'localhost:3000';
+const baseUrl = 'https://coolist.xyz'
+//const baseUrl = 'localhost:3000';
 
 const Index = () => {
   const [account, setAccount] = useState();
