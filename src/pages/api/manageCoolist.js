@@ -13,6 +13,8 @@ export default async function manageCoolistHandler(req, res) {
         .project({'_id':0, 'owner':0})
         .toArray();
       res.status(200).json({ data: coolists });
+    } else {
+      res.status(400).json({ data: "ERROR" });
     }
   } catch (e) {
     log(`problem connecting to db\n${e}`,'e');
