@@ -69,7 +69,7 @@ const Index = () => {
   }
 
   return (
-    <Center mt={50}>
+    <Center mt={50} pr={5} pl={5} sx={{textAlign:"center"}}>
       <DarkModeSwitch />
       <VStack spacing={8}>
         <Heading>coolist</Heading>
